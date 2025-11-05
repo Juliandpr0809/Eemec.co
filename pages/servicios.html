@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios - EEMEC | Soluciones Integrales</title>
+    <meta name="description" content="Servicios de ingeniería civil, mecánica, eléctrica, instrumentación y control en Cartagena. Diseño, consultoría e interventoría.">
+    <meta name="keywords" content="ingeniería Cartagena, servicios ingeniería, consultoría, interventoría, civil, mecánica, eléctrica">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="../img/LOGO.png" type="image/png">
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/servicios.css">
+</head>
+<body class="bg-white">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between py-3">
+                <div class="flex items-center">
+                    <img src="../img/LOGO.png" alt="EEMEC - Soluciones Integrales en Ingeniería" class="h-20">
+                </div>
+                <nav id="mainNav" class="hidden md:flex items-center space-x-8">
+                    <a href="../index.html" class="nav-link text-gray-700 text-sm font-medium">Inicio</a>
+                    <a href="nosotros.html" class="nav-link text-gray-700 text-sm font-medium">Nosotros</a>
+                    <a href="#" class="nav-link text-gray-700 text-sm font-medium font-bold">Servicios</a>
+                    <a href="proyectos.html" class="nav-link text-gray-700 text-sm font-medium">Proyectos</a>
+                    <a href="contacto.html" class="nav-link text-gray-700 text-sm font-medium">Contacto</a>
+                </nav>
+                <div class="flex items-center space-x-4">
+                    <div class="hidden lg:flex items-center space-x-4 text-sm text-gray-600">
+                        <span><i class="fas fa-phone mr-2"></i>(+57) 316 513 5406</span>
+                        <span><i class="fas fa-envelope mr-2"></i>gerencia@eemec.co</span>
+                    </div>
+                    <button class="btn-primary text-white px-6 py-2 rounded-md text-sm font-medium">
+                        Solicitar cotización
+                    </button>
+                    <button id="mobileMenuBtn" class="md:hidden text-gray-700" aria-controls="mainNav" aria-expanded="false">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="servicios" class="relative bg-gradient-to-br from-blue-950 via-blue-900 to-blue-800 text-white py-24 overflow-hidden">
+        <!-- Fondo con barco replicado del index -->
+        <div class="absolute inset-0 hero-boat-cover pointer-events-none"></div>
+        <div class="absolute inset-0 hero-boat-tiles pointer-events-none"></div>
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-0 left-0 w-96 h-96 bg-blue-400 rounded-full filter blur-3xl"></div>
+            <div class="absolute bottom-0 right-0 w-96 h-96 bg-cyan-400 rounded-full filter blur-3xl"></div>
+        </div>
+        <div class="container mx-auto px-4 text-center relative z-10">
+            <div class="inline-block mb-4 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm font-semibold">
+                <i class="fas fa-tools mr-2"></i> Portafolio de Servicios
+            </div>
+            <h1 class="text-5xl md:text-6xl font-bold mb-6">Servicios Especializados en Ingeniería</h1>
+            <p class="text-xl mb-8 max-w-3xl mx-auto leading-relaxed opacity-90">
+                Soluciones integrales con más de 25 años de experiencia técnica en ingeniería civil, mecánica, eléctrica, instrumentación y control industrial
+            </p>
+            <div class="flex flex-wrap justify-center gap-4 text-sm">
+                <div class="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-lg">
+                    <i class="fas fa-check-circle text-green-400 mr-2"></i> +25 Años de Experiencia
+                </div>
+                <div class="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-lg">
+                    <i class="fas fa-check-circle text-green-400 mr-2"></i> Cobertura Nacional
+                </div>
+                <div class="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-lg">
+                    <i class="fas fa-check-circle text-green-400 mr-2"></i> Lineamientos ISO
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Detail Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <p class="text-blue-600 font-semibold mb-2 uppercase tracking-wide">Nuestros Servicios Principales</p>
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">
+                    Soluciones Integrales Para Cada Necesidad
+                </h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Ofrecemos un portafolio completo de servicios especializados adaptados a las necesidades del sector industrial
+                </p>
+            </div>
+
+            <!-- Servicio 1: Reparación Maquinaria -->
+            <div class="mb-16 grid md:grid-cols-2 gap-8 items-center">
+                <div class="order-2 md:order-1">
+                    <div class="inline-block px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm font-semibold mb-4">
+                        Servicio 1
+                    </div>
+                    <h3 class="text-3xl font-bold text-gray-900 mb-4">
+                        Reparación de Maquinaria Eléctrica Rotativa
+                    </h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Servicios especializados de mantenimiento, diagnóstico y reparación integral de motores eléctricos y transformadores. Trabajamos con equipos de todas las capacidades, garantizando la prolongación de su vida útil y eficiencia operativa.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-700">Diagnóstico técnico especializado</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-700">Rebobinado y reparación de motores AC/DC</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-700">Mantenimiento preventivo y correctivo</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-700">Reparación de transformadores industriales</span>
+                        </li>
+                    </ul>
+                    <div class="flex gap-4">
+                        <a href="servicios-detalle/servicio-1.html" class="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition">
+                            Ver más detalles <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        <a href="#contacto" class="inline-flex items-center text-blue-600 font-semibold hover:text-blue-700">
+                            Solicitar cotización <i class="fas fa-paper-plane ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="order-1 md:order-2">
+                    <div class="relative h-80 rounded-2xl overflow-hidden shadow-2xl">
+                        <img src="../img/servicio6/Rebobinado generador de 7 kW/Imagen de WhatsApp 2025-10-21 a las 20.38.40_d8687cd0.jpg" 
+                             alt="Reparación de Maquinaria Eléctrica" 
+                             class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/50 to-transparent p-6">
+                            <p class="text-white font-semibold text-lg">Maquinaria Eléctrica</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Servicio 2: Sistemas Eléctricos -->
+            <div class="mb-16 grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <div class="relative h-80 rounded-2xl overflow-hidden shadow-2xl">
+                        <img src="../img/Servicio cotecmar/sistema eléctrico y electrónico/IMG-20251022-WA0044.jpg" 
+                             alt="Sistemas Eléctricos y Electrónicos" 
+                             class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/50 to-transparent p-6">
+                            <p class="text-white font-semibold text-lg">Sistemas Eléctricos</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="inline-block px-3 py-1 bg-yellow-100 text-yellow-600 rounded-full text-sm font-semibold mb-4">
+                        Servicio 2
+                    </div>
+                    <h3 class="text-3xl font-bold text-gray-900 mb-4">
+                        Sistemas Eléctricos de Media y Baja Tensión
+                    </h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Diseño, instalación y mantenimiento de sistemas eléctricos completos, desde subestaciones hasta distribución final. Cumplimos con normativas RETIE y garantizamos instalaciones seguras y eficientes.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-700">Diseño e ingeniería de detalle de sistemas eléctricos</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-700">Instalación de subestaciones y tableros de distribución</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-700">Sistemas de iluminación industrial y comercial</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-700">Certificaciones RETIE</span>
+                        </li>
+                    </ul>
+                    <div class="flex gap-4">
+                        <a href="servicios-detalle/servicio-2.html" class="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition">
+                            Ver más detalles <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        <a href="#contacto" class="inline-flex items-center text-blue-600 font-semibold hover:text-blue-700">
+                            Solicitar cotización <i class="fas fa-paper-plane ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Servicio 3: Aires Acondicionados -->
+            <div class="mb-16 grid md:grid-cols-2 gap-8 items-center">
+                <div class="order-2 md:order-1">
+                    <div class="inline-block px-3 py-1 bg-cyan-100 text-cyan-600 rounded-full text-sm font-semibold mb-4">
+                        Servicio 3
+                    </div>
+                    <h3 class="text-3xl font-bold text-gray-900 mb-4">
+                        Aires Acondicionados y Refrigeración
+                    </h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Instalación, mantenimiento y reparación de sistemas de climatización industrial y comercial. Garantizamos ambientes óptimos para procesos productivos y confort en instalaciones.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-700">Instalación de sistemas HVAC industriales</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-700">Mantenimiento preventivo y correctivo</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-700">Sistemas de refrigeración para procesos industriales</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-700">Optimización energética de sistemas existentes</span>
+                        </li>
+                    </ul>
+                    <div class="flex gap-4">
+                        <a href="servicios-detalle/servicio-3.html" class="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition">
+                            Ver más detalles <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        <a href="#contacto" class="inline-flex items-center text-blue-600 font-semibold hover:text-blue-700">
+                            Solicitar cotización <i class="fas fa-paper-plane ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="order-1 md:order-2">
+                    <div class="relative h-80 rounded-2xl overflow-hidden shadow-2xl">
+                        <img src="../img/servicio3/Cambio de condensadora planta aire acondicionado en embarcaciones particulares/IMG-20251022-WA0087.jpg" 
+                             alt="Aires Acondicionados Industriales" 
+                             class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/50 to-transparent p-6">
+                            <p class="text-white font-semibold text-lg">Climatización Industrial</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Servicio 4: Fabricación de Tableros Eléctricos -->
+            <div class="mb-16 grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <div class="relative h-80 rounded-2xl overflow-hidden shadow-2xl">
+                        <img src="../img/servicio6/fabricacion de tableros de distribucion para embarcaciones/IMG-20251022-WA0052.jpg" 
+                             alt="Fabricación de Tableros Eléctricos" 
+                             class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/50 to-transparent p-6">
+                            <p class="text-white font-semibold text-lg">Fabricación de Tableros Eléctricos</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="inline-block px-3 py-1 bg-purple-100 text-purple-600 rounded-full text-sm font-semibold mb-4">
+                        Servicio 4
+                    </div>
+                    <h3 class="text-3xl font-bold text-gray-900 mb-4">
+                        Fabricación de Tableros Eléctricos
+                    </h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Suministro de equipos eléctricos, electrónicos y repuestos industriales de marcas reconocidas. Asesoramiento técnico para la selección óptima según sus necesidades.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-700">Motores eléctricos industriales</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-700">Variadores de frecuencia y arrancadores</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-700">Instrumentación y sensores industriales</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-700">Repuestos y componentes eléctricos</span>
+                        </li>
+                    </ul>
+                    <div class="flex gap-4">
+                        <a href="servicios-detalle/servicio-4.html" class="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition">
+                            Ver más detalles <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        <a href="#contacto" class="inline-flex items-center text-blue-600 font-semibold hover:text-blue-700">
+                            Solicitar cotización <i class="fas fa-paper-plane ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Servicio 5: Motores y Compresores -->
+            <div class="mb-16 grid md:grid-cols-2 gap-8 items-center">
+                <div class="order-2 md:order-1">
+                    <div class="inline-block bg-blue-100 text-blue-600 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                        Servicio 5
+                    </div>
+                    <h3 class="text-3xl font-bold text-gray-900 mb-4">
+                        Motores Eléctricos y Compresores
+                    </h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Mantenimiento especializado y reparación de motores eléctricos y compresores industriales. Servicios de puesta en marcha y ajuste para máximo rendimiento.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-700">Overhaul de motores diésel y gasolina</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-700">Mantenimiento de compresores industriales</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-700">Diagnóstico y balanceo dinámico</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-700">Optimización de sistemas eléctricos</span>
+                        </li>
+                    </ul>
+                    <div class="flex gap-4">
+                        <a href="servicios-detalle/servicio-5.html" class="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition">
+                            Ver más detalles <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        <a href="#contacto" class="inline-flex items-center text-blue-600 font-semibold hover:text-blue-700">
+                            Solicitar cotización <i class="fas fa-paper-plane ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="order-1 md:order-2">
+                    <div class="relative h-80 rounded-2xl overflow-hidden shadow-2xl">
+                        <img src="../img/servicio5/mantenimiento de motores electricos corriente alterna/Imagen de WhatsApp 2025-10-21 a las 19.51.14_a42718b7.jpg" 
+                             alt="Motores y Compresores" 
+                             class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/50 to-transparent p-6">
+                            <p class="text-white font-semibold text-lg">Motores Eléctricos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Servicio 6: Equipos Industriales -->
+            <div class="mb-16 grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <div class="relative h-80 rounded-2xl overflow-hidden shadow-2xl">
+                        <img src="../img/servicio6/Mantenimiento generadores electricos/IMG-20251022-WA0077.jpg" 
+                             alt="Reparación y Mantenimiento de Generadores" 
+                             class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/50 to-transparent p-6">
+                            <p class="text-white font-semibold text-lg">Generadores</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="inline-block px-3 py-1 bg-red-100 text-red-600 rounded-full text-sm font-semibold mb-4">
+                        Servicio 6
+                    </div>
+                    <h3 class="text-3xl font-bold text-gray-900 mb-4">
+                        Reparación y Mantenimiento de Generadores
+                    </h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Servicios especializados de reparación y mantenimiento preventivo y correctivo para generadores. Garantizamos el óptimo funcionamiento y rendimiento de sus equipos generadores.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-700">Fabricación de estructuras metálicas</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-700">Montaje de equipos industriales</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-700">Mantenimiento mecánico especializado</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-700">Alineación y nivelación de maquinaria</span>
+                        </li>
+                    </ul>
+                    <div class="flex gap-4">
+                        <a href="servicios-detalle/servicio-6.html" class="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition">
+                            Ver más detalles <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        <a href="#contacto" class="inline-flex items-center text-blue-600 font-semibold hover:text-blue-700">
+                            Solicitar cotización <i class="fas fa-paper-plane ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Otros Servicios Section -->
+    <section class="py-20 bg-gradient-to-b from-gray-50 to-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Servicios Adicionales Especializados</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Complementamos nuestro portafolio con servicios técnicos especializados en automatización, control y tecnología industrial
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
+                            <i class="fas fa-sliders-h text-blue-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-900 mb-2">Variadores de Frecuencia</h3>
+                            <p class="text-sm text-gray-600">Instalación, configuración y mantenimiento de drives para control de velocidad</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mr-4">
+                            <i class="fas fa-arrow-up text-purple-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-900 mb-2">Modernización de Equipos</h3>
+                            <p class="text-sm text-gray-600">Actualización tecnológica de maquinaria y sistemas industriales</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mr-4">
+                            <i class="fas fa-bolt text-yellow-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-900 mb-2">Estudios de Cortocircuito</h3>
+                            <p class="text-sm text-gray-600">Análisis y cálculos de fallas en sistemas eléctricos</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mr-4">
+                            <i class="fas fa-desktop text-green-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-900 mb-2">Sistemas SCADA</h3>
+                            <p class="text-sm text-gray-600">Implementación de sistemas de supervisión y control de procesos</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mr-4">
+                            <i class="fas fa-microchip text-red-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-900 mb-2">Programación PLC</h3>
+                            <p class="text-sm text-gray-600">Desarrollo y optimización de lógica de control industrial</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 w-12 h-12 bg-cyan-100 rounded-lg flex items-center justify-center mr-4">
+                            <i class="fas fa-network-wired text-cyan-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-900 mb-2">Redes Industriales</h3>
+                            <p class="text-sm text-gray-600">Diseño e implementación de comunicaciones industriales</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mr-4">
+                            <i class="fas fa-tools text-indigo-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-900 mb-2">Mantenimiento Especializado</h3>
+                            <p class="text-sm text-gray-600">Planes preventivos y correctivos para equipos críticos</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mr-4">
+                            <i class="fas fa-hammer text-orange-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-900 mb-2">Montaje de Tableros</h3>
+                            <p class="text-sm text-gray-600">Fabricación y ensamble de tableros de control y potencia</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center mr-4">
+                            <i class="fas fa-laptop-code text-pink-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-900 mb-2">Software de Gestión</h3>
+                            <p class="text-sm text-gray-600">Sistemas de información para gestión de mantenimiento</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 w-12 h-12 bg-teal-100 rounded-lg flex items-center justify-center mr-4">
+                            <i class="fas fa-chart-line text-teal-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-900 mb-2">Diagnóstico Técnico</h3>
+                            <p class="text-sm text-gray-600">Análisis de fallas y estudios de eficiencia energética</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 w-12 h-12 bg-lime-100 rounded-lg flex items-center justify-center mr-4">
+                            <i class="fas fa-graduation-cap text-lime-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-900 mb-2">Capacitación Técnica</h3>
+                            <p class="text-sm text-gray-600">Formación especializada en operación y mantenimiento</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 w-12 h-12 bg-sky-100 rounded-lg flex items-center justify-center mr-4">
+                            <i class="fas fa-file-alt text-sky-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-900 mb-2">Consultorías Técnicas</h3>
+                            <p class="text-sm text-gray-600">Asesoría especializada en proyectos de ingeniería</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Section / Valores -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-gray-900 mb-12 text-center">¿Por qué elegir EEMEC?</h2>
+            <div class="grid md:grid-cols-3 gap-8 mb-16">
+                <div class="text-center p-6 border rounded-lg hover:shadow-lg transition">
+                    <div class="text-blue-600 text-5xl mb-4">🎯</div>
+                    <h3 class="font-bold text-xl mb-2">Responsabilidad</h3>
+                    <p class="text-gray-600 text-sm">Supervisión y ejecución puntual de cada proyecto.</p>
+                </div>
+                <div class="text-center p-6 border rounded-lg hover:shadow-lg transition">
+                    <div class="text-blue-600 text-5xl mb-4">🤝</div>
+                    <h3 class="font-bold text-xl mb-2">Compromiso</h3>
+                    <p class="text-gray-600 text-sm">Damos el 100% de nuestra capacidad operativa en cada servicio.</p>
+                </div>
+                <div class="text-center p-6 border rounded-lg hover:shadow-lg transition">
+                    <div class="text-blue-600 text-5xl mb-4">⭐</div>
+                    <h3 class="font-bold text-xl mb-2">Calidad</h3>
+                    <p class="text-gray-600 text-sm">Aseguramos procesos rigurosos para resultados excepcionales.</p>
+                </div>
+            </div>
+
+            <!-- Stats Section -->
+            <div class="grid md:grid-cols-3 gap-6 text-center">
+                <div class="p-6 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">+25</div>
+                    <p class="text-gray-700 font-medium">Años de Experiencia</p>
+                </div>
+                <div class="p-6 bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl">
+                    <div class="text-4xl font-bold text-purple-600 mb-2">100%</div>
+                    <p class="text-gray-700 font-medium">Satisfacción Cliente</p>
+                </div>
+                <div class="p-6 bg-gradient-to-br from-orange-50 to-yellow-50 rounded-xl">
+                    <div class="text-4xl font-bold text-orange-600 mb-2">3</div>
+                    <p class="text-gray-700 font-medium">Lineamientos ISO </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-cyan-900 text-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold mb-4">Certificaciones y Reconocimientos</h2>
+                <p class="text-blue-100 max-w-2xl mx-auto">
+                    Nuestro compromiso con la calidad está alineado a los lineamientos de normas internacionales ISO.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white/10 backdrop-blur-sm p-8 rounded-xl text-center border border-white/20">
+                    <div class="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-certificate text-4xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">ISO 9001:2015 </h3>
+                    <p class="text-blue-100 text-sm">Sistema de Gestión de Calidad</p>
+                    <span class="inline-block mt-4 px-3 py-1 bg-yellow-400 text-gray-900 text-xs font-semibold rounded-full">
+                        En proceso de certificación
+                    </span>
+                </div>
+                <div class="bg-white/10 backdrop-blur-sm p-8 rounded-xl text-center border border-white/20">
+                    <div class="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-leaf text-4xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">ISO 14001:2015 </h3>
+                    <p class="text-blue-100 text-sm">Sistema de Gestión Ambiental</p>
+                    <span class="inline-block mt-4 px-3 py-1 bg-yellow-400 text-gray-900 text-xs font-semibold rounded-full">
+                        En proceso de certificación
+                    </span>
+                </div>
+                <div class="bg-white/10 backdrop-blur-sm p-8 rounded-xl text-center border border-white/20">
+                    <div class="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-hard-hat text-4xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">ISO 45001:2018 </h3>
+                    <p class="text-blue-100 text-sm">Sistema de Gestión de SST</p>
+                    <span class="inline-block mt-4 px-3 py-1 bg-yellow-400 text-gray-900 text-xs font-semibold rounded-full">
+                        En proceso de certificación
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">¿Listo para iniciar tu proyecto?</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Contáctanos y recibe una cotización personalizada. Nuestro equipo de expertos está listo para atenderte.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Información de Contacto</h3>
+                    <div class="space-y-6 mb-8">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-phone text-blue-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-1">Teléfono</h4>
+                                <p class="text-gray-600">(+57) 316 513 5406</p>
+                                <p class="text-sm text-gray-500">Lun - Vie: 8:00 AM - 6:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-envelope text-green-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-1">Correo Electrónico</h4>
+                                <p class="text-gray-600">gerencia@eemec.co</p>
+                                <p class="text-sm text-gray-500">Respuesta en 24 horas</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-map-marker-alt text-purple-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-1">Ubicación</h4>
+                                <p class="text-gray-600">DG 32 #83-58, Barrio Ternera – Cartagena, Bolívar</p>
+                                <p class="text-sm text-gray-500">Colombia</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-blue-600 to-cyan-600 rounded-xl p-6 text-white">
+                        <h4 class="font-bold text-lg mb-3">¿Por qué contactarnos?</h4>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle mr-2"></i>
+                                Asesoría técnica especializada
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle mr-2"></i>
+                                Cotizaciones sin compromiso
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle mr-2"></i>
+                                Atención personalizada
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle mr-2"></i>
+                                Respuesta rápida y efectiva
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle mr-2"></i>
+                                +300 proyectos completados
+                            </li>
+                        </ul>
+                        <a href="https://wa.me/573165135406" target="_blank" class="mt-6 flex items-center justify-center bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold text-base shadow-lg hover:shadow-xl transition-all duration-300">
+                            <i class="fab fa-whatsapp text-2xl mr-3"></i>
+                            WhatsApp: (+57) 316 513 5406
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="bg-white rounded-xl shadow-xl p-8">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Solicita una Cotización</h3>
+                    <form id="contactForm" action="https://formsubmit.co/gerencia@eemec.co" method="POST" data-use-formsubmit>
+                        <input type="hidden" name="_subject" value="Nueva solicitud de cotización - Servicios EEMEC" />
+                        <input type="hidden" name="_template" value="table" />
+                        <input type="hidden" name="_captcha" value="false" />
+                        <input type="hidden" name="_next" value="https://www.eemec.co/pages/gracias.html" />
+                        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+                        
+                        <div class="grid md:grid-cols-2 gap-4 mb-4">
+                            <div>
+                                <label for="nombre" class="block text-sm font-medium text-gray-700 mb-2">Nombre completo *</label>
+                                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" class="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-blue-500 focus:border-transparent" required>
+                            </div>
+                            <div>
+                                <label for="correo" class="block text-sm font-medium text-gray-700 mb-2">Correo electrónico *</label>
+                                <input type="email" id="correo" name="correo" placeholder="tu@email.com" class="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-blue-500 focus:border-transparent" required>
+                            </div>
+                        </div>
+                        
+                        <div class="grid md:grid-cols-2 gap-4 mb-4">
+                            <div>
+                                <label for="telefono" class="block text-sm font-medium text-gray-700 mb-2">Teléfono</label>
+                                <input type="tel" id="telefono" name="telefono" placeholder="+57 300 123 4567" class="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            </div>
+                            <div>
+                                <label for="servicio" class="block text-sm font-medium text-gray-700 mb-2">Servicio de interés</label>
+                                <select id="servicio" name="servicio" class="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                                    <option value="">Seleccionar servicio</option>
+                                    <option value="Reparación Maquinaria">Reparación Maquinaria Eléctrica</option>
+                                    <option value="Sistemas Eléctricos">Sistemas Eléctricos</option>
+                                    <option value="Aires Acondicionados">Aires Acondicionados</option>
+                                    <option value="Fabricación de Tableros">Fabricación de Tableros Eléctricos</option>
+                                    <option value="Motores Eléctricos">Motores y Compresores</option>
+                                    <option value="Equipos Industriales">Equipos Industriales</option>
+                                    <option value="Otro">Otro servicio</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <label for="mensaje" class="block text-sm font-medium text-gray-700 mb-2">Mensaje *</label>
+                            <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos sobre tu proyecto o necesidad..." rows="5" class="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-blue-500 focus:border-transparent" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white px-8 py-4 rounded-lg font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center">
+                            <i class="fas fa-paper-plane mr-2"></i> Enviar Solicitud
+                        </button>
+                        
+                        <p class="text-xs text-gray-500 mt-4 text-center">
+                            Al enviar este formulario, aceptas nuestras políticas de privacidad
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="relative bg-gradient-to-b from-gray-900 to-blue-950 text-white pt-16">
+        <div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-transparent via-blue-500/60 to-transparent"></div>
+
+        <div class="container mx-auto px-4">
+            <div class="grid gap-10 md:grid-cols-5 mb-12">
+                <div>
+                    <img src="../img/LOGO-transparent.svg" alt="EEMEC - Soluciones Integrales" class="h-12 mb-4 brightness-0 invert">
+                    <p class="text-gray-400 text-sm leading-relaxed">En EEMEC S.A.S, aspiramos no solo a cumplir expectativas, sino a superarlas.</p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                        <span class="text-[11px] uppercase tracking-wide bg-white/5 text-gray-300 px-2.5 py-1 rounded-full ring-1 ring-white/10">+25 años</span>
+                        
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Enlaces rápidos</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="../index.html" class="group inline-flex items-center gap-2 hover:text-white transition"><i class="fas fa-angle-right text-xs text-blue-400 opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition"></i>Inicio</a></li>
+                        <li><a href="nosotros.html" class="group inline-flex items-center gap-2 hover:text-white transition"><i class="fas fa-angle-right text-xs text-blue-400 opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition"></i>Nosotros</a></li>
+                        <li><a href="#" class="group inline-flex items-center gap-2 hover:text-white transition"><i class="fas fa-angle-right text-xs text-blue-400 opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition"></i>Servicios</a></li>
+                        <li><a href="contacto.html" class="group inline-flex items-center gap-2 hover:text-white transition"><i class="fas fa-angle-right text-xs text-blue-400 opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition"></i>Contacto</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Servicios</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="servicios.html" class="hover:text-white">Reparación de Maquinaria Eléctrica</a></li>
+                        <li><a href="servicios.html" class="hover:text-white">Sistemas Eléctricos</a></li>
+                        <li><a href="servicios.html" class="hover:text-white">Aires Acondicionados y Refrigeración</a></li>
+                        <li><a href="servicios.html" class="hover:text-white">Fabricación de Tableros Eléctricos</a></li>
+                        <li><a href="servicios.html" class="hover:text-white">Motores y Compresores</a></li>
+                        <li><a href="servicios.html" class="hover:text-white">Equipos Industriales</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Contáctanos</h4>
+                    <ul class="space-y-3 text-sm text-gray-300">
+                        <li class="flex items-center gap-3"><span class="inline-flex items-center justify-center rounded-md bg-white/5 ring-1 ring-white/10 w-8 h-8"><i class="fas fa-phone text-blue-300"></i></span>(+57) 316 513 5406</li>
+                        <li class="flex items-center gap-3"><span class="inline-flex items-center justify-center rounded-md bg-white/5 ring-1 ring-white/10 w-8 h-8"><i class="fas fa-envelope text-blue-300"></i></span>gerencia@eemec.co</li>
+                        <li class="flex items-center gap-3"><span class="inline-flex items-center justify-center rounded-md bg-white/5 ring-1 ring-white/10 w-8 h-8"><i class="fas fa-map-marker-alt text-blue-300"></i></span>DG 32 #83-58, Barrio Ternera – Cartagena, Bolívar</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Descarga nuestro portafolio</h4>
+                    <a href="../assets/PORTAFOLIO EEMEC.pdf" download class="w-full flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold shadow-lg transition-all duration-300 mb-2">
+                        <i class="fas fa-download"></i> Descargar portafolio
+                    </a>
+                </div>
+            </div>
+
+            <div class="h-px w-full bg-gradient-to-r from-transparent via-white/10 to-transparent mb-6"></div>
+            <div class="pb-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm mb-4 md:mb-0">&copy; 2025 EEMEC. Todos los derechos reservados.</p>
+                <div class="flex items-center gap-3">
+                    <a href="https://www.linkedin.com/company/eemec-s-a-s/posts/?feedView=all" target="_blank" aria-label="LinkedIn" class="group inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/5 ring-1 ring-white/10 hover:bg-white/10 transition"><i class="fab fa-linkedin-in text-gray-300 group-hover:text-white"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- EmailJS (envío de formularios sin backend) -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="../js/emailjs-config.js"></script>
+    <script src="../js/form-handler.js"></script>
+
+    <script src="../js/servicios.js"></script>
+
+</body>
+</html>

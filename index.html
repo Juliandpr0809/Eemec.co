@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EEMEC S.A.S | Compromiso y Calidad</title>
+    <meta name="description" content="EEMEC S.A.S ofrece soluciones integrales en ingeniería civil, mecánica y eléctrica en Cartagena. +300 proyectos completados. 8 empleados expertos. Clientes: Cotecmar, Buzca, Serport, Barceloneta. NIT 901067381-8.">
+    <meta name="keywords" content="ingeniería civil Cartagena, ingeniería mecánica, ingeniería eléctrica, aislamiento térmico, construcción Colombia">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="img/LOGO.png" type="image/png">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body class="bg-white">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between py-3">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <img src="img/LOGO.png" alt="EEMEC - Soluciones Integrales en Ingeniería" class="h-20">
+                </div>
+                
+                <!-- Navigation -->
+                <nav id="mainNav" class="hidden md:flex items-center space-x-8">
+                    <a href="#inicio" class="nav-link text-gray-700 text-sm font-medium">Inicio</a>
+                    <a href="pages/nosotros.html" class="nav-link text-gray-700 text-sm font-medium">Nosotros</a>
+                    <a href="pages/servicios.html" class="nav-link text-gray-700 text-sm font-medium">Servicios</a>
+                    <a href="pages/proyectos.html" class="nav-link text-gray-700 text-sm font-medium">Proyectos</a>
+                    <a href="pages/contacto.html" class="nav-link text-gray-700 text-sm font-medium">Contacto</a>
+                </nav>
+                
+                <!-- Contact Info & CTA -->
+                <div class="flex items-center space-x-4">
+                    <div class="hidden lg:flex items-center space-x-4 text-sm text-gray-600">
+                        <span><i class="fas fa-phone mr-2"></i>(+57) 316 513 5406</span>
+                        <span><i class="fas fa-envelope mr-2"></i>gerencia@eemec.co</span>
+                    </div>
+                    <button class="btn-primary text-white px-6 py-2 rounded-md text-sm font-medium">
+                        Solicitar cotización
+                    </button>
+                    <button id="mobileMenuBtn" class="md:hidden text-gray-700" aria-controls="mainNav" aria-expanded="false">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="relative bg-gradient-to-br from-blue-950 via-blue-900 to-blue-800 text-white py-24 overflow-hidden">
+        <!-- Fondo con barco: capa de imagen principal y patrón de mini barcos -->
+        <div class="absolute inset-0 hero-boat-cover pointer-events-none"></div>
+        <div class="absolute inset-0 hero-boat-tiles pointer-events-none"></div>
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-0 left-0 w-96 h-96 bg-blue-400 rounded-full filter blur-3xl"></div>
+            <div class="absolute bottom-0 right-0 w-96 h-96 bg-cyan-400 rounded-full filter blur-3xl"></div>
+        </div>
+        <div class="container mx-auto px-4 text-center relative z-10">
+            <p class="text-sm uppercase tracking-wider mb-4">Bienvenidos a</p>
+            <h1 class="text-5xl md:text-6xl font-bold mb-6">EEMEC S.A.S</h1>
+            <p class="text-lg mb-6 max-w-2xl mx-auto">
+                Nos enfocamos en ofrecer la seguridad y el bienestar de nuestros clientes,
+                cumpliendo con las normativas vigentes y estándares de calidad más altos.
+            </p>
+            <p class="text-2xl md:text-3xl font-bold text-white mb-8 drop-shadow-lg">En EEMEC S.A.S, aspiramos no solo a cumplir expectativas, sino a superarlas.</p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#contacto" class="btn-primary text-white px-8 py-3 rounded-md font-medium flex items-center hover:bg-blue-800 transition">
+                    <i class="fas fa-paper-plane mr-2"></i>
+                    Solicitar cotización
+                </a>
+                <a href="pages/servicios.html" class="bg-white text-gray-800 px-8 py-3 rounded-md font-medium hover:bg-gray-100 transition">
+                    Conoce nuestros servicios
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="nosotros" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <p class="text-blue-600 font-semibold mb-2">¿Quiénes Somos?</p>
+            <h2 class="text-4xl font-bold text-gray-900 mb-6 max-w-2xl">
+                EEMEC S.A.S: Soluciones Integrales en Ingeniería Eléctrica, Mecánica y Mantenimiento Industrial
+            </h2>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <p class="text-gray-700 text-lg text-justify">
+                        EEMEC S.A.S es una empresa colombiana fundada en marzo de 2017 en Cartagena, Bolívar, dedicada a ofrecer soluciones integrales en ingeniería eléctrica, mecánica y mantenimiento industrial. Hemos completado exitosamente más de 300 proyectos con un equipo de 8 empleados expertos altamente calificados que trabajan bajo altos estándares de calidad, seguridad y cumplimiento.
+                    </p>
+                    <p class="text-gray-700 text-lg text-justify">
+                        Nuestra gestión está orientada al desarrollo de proyectos industriales, civiles, navales y residenciales, garantizando siempre la satisfacción del cliente y el cumplimiento de la normatividad vigente. Contamos con la confianza de clientes como COTECMAR, BUZCA, SERPORT y Condominio Barceloneta.
+                    </p>
+                    <ul class="mt-6 space-y-2 text-base text-blue-900">
+                        <li><strong>+300 proyectos</strong> completados exitosamente</li>
+                        <li><strong>8 empleados expertos</strong> altamente calificados</li>
+                        <li><strong>Clientes satisfechos:</strong> Cotecmar, Buzca, Serport, Barceloneta</li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="img/index1.jpg" alt="Ingeniero de EEMEC supervisando proyecto de construcción" class="rounded-lg shadow-lg mb-4">
+                    <div class="flex items-start">
+                        <div class="icon-box mr-4 flex-shrink-0">
+                            <i class="fas fa-hard-hat"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-xl mb-2">Compromiso, Calidad y Mejora Continua</h3>
+                            <p class="text-gray-600 text-justify">
+                                Nuestro equipo está dedicado a superar las expectativas de nuestros clientes en cada etapa del proceso, asegurando los más altos estándares de calidad, seguridad y sostenibilidad ambiental.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Misión, Visión y Políticas -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4 max-w-5xl">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-900 mb-2">Misión</h3>
+                    <p class="text-gray-700 text-justify">En EEMEC S.A.S brindamos soluciones integrales en ingeniería eléctrica, mecánica y mantenimiento industrial, garantizando la satisfacción total de nuestros clientes a través de personal altamente calificado, cumplimiento en los tiempos de entrega y estrictos estándares de calidad, seguridad y sostenibilidad ambiental.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-blue-900 mb-2">Visión</h3>
+                    <p class="text-gray-700 text-justify">Para el año 2030, ser reconocidos como una de las empresas líderes en soluciones integrales eléctricas, mecánicas y de mantenimiento industrial en el sector naval, civil e industrial, destacándonos por la calidad, seguridad, innovación y cumplimiento en cada uno de nuestros proyectos.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-blue-900 mb-2">Políticas SIG</h3>
+                    <ul class="list-disc pl-5 text-gray-700 text-sm">
+                        <li><strong>Calidad:</strong> Compromiso con la mejora continua y la satisfacción total del cliente.</li>
+                        <li><strong>Seguridad y Salud en el Trabajo:</strong> Prevención de accidentes y promoción de una cultura preventiva.</li>
+                        <li><strong>Medio ambiente:</strong> Uso racional de recursos y gestión adecuada de residuos.</li>
+                        <li><strong>Ética y cumplimiento:</strong> Transparencia y responsabilidad en cada relación comercial.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="py-20 bg-blue-950 text-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <p class="text-blue-400 font-semibold mb-2">NUESTROS SERVICIOS</p>
+                <h2 class="text-4xl font-bold mb-4">
+                    Soluciones integrales en ingeniería eléctrica, mecánica e industrial
+                </h2>
+                <p class="text-gray-300 max-w-3xl mx-auto">
+                    Ofrecemos un portafolio completo de servicios especializados para el sector industrial, naval, civil y residencial.
+                </p>
+            </div>
+            
+            <!-- Main Services Grid - 6 Services -->
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                <!-- Servicio 1 -->
+                <div class="bg-white/10 rounded-lg p-6 hover:bg-white/20 transition">
+                    <div class="text-4xl mb-4"><i class="fas fa-cogs text-blue-400"></i></div>
+                    <h3 class="font-bold text-xl mb-3">Servicio 1</h3>
+                    <h4 class="text-blue-300 font-semibold mb-2">Reparación y mantenimiento de maquinaria industrial</h4>
+                    <p class="text-gray-200 text-sm mb-4">Servicios especializados en reparación y mantenimiento preventivo y correctivo de toda clase de maquinaria industrial.</p>
+                    <a href="pages/servicios-detalle/servicio-1.html" class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm font-semibold transition">
+                        Ver más detalles <i class="fas fa-arrow-right ml-1"></i>
+                    </a>
+                </div>
+                
+                <!-- Servicio 2 -->
+                <div class="bg-white/10 rounded-lg p-6 hover:bg-white/20 transition">
+                    <div class="text-4xl mb-4"><i class="fas fa-bolt text-blue-400"></i></div>
+                    <h3 class="font-bold text-xl mb-3">Servicio 2</h3>
+                    <h4 class="text-blue-300 font-semibold mb-2">Mantenimiento y trabajos de sistemas eléctricos y electrónicos</h4>
+                    <p class="text-gray-200 text-sm mb-4">Sistemas eléctricos, electrónicos, alarmas, automatización y programación especializada.</p>
+                    <a href="pages/servicios-detalle/servicio-2.html" class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm font-semibold transition">
+                        Ver más detalles <i class="fas fa-arrow-right ml-1"></i>
+                    </a>
+                </div>
+                
+                <!-- Servicio 3 -->
+                <div class="bg-white/10 rounded-lg p-6 hover:bg-white/20 transition">
+                    <div class="text-4xl mb-4"><i class="fas fa-snowflake text-blue-400"></i></div>
+                    <h3 class="font-bold text-xl mb-3">Servicio 3</h3>
+                    <h4 class="text-blue-300 font-semibold mb-2">Reparación y mantenimiento de aires acondicionados y refrigeración</h4>
+                    <p class="text-gray-200 text-sm mb-4">Servicios integrales de climatización y sistemas de refrigeración industrial y comercial.</p>
+                    <a href="pages/servicios-detalle/servicio-3.html" class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm font-semibold transition">
+                        Ver más detalles <i class="fas fa-arrow-right ml-1"></i>
+                    </a>
+                </div>
+                
+                <!-- Servicio 4 -->
+                <div class="bg-white/10 rounded-lg p-6 hover:bg-white/20 transition">
+                    <div class="text-4xl mb-4"><i class="fas fa-shopping-cart text-blue-400"></i></div>
+                    <h3 class="font-bold text-xl mb-3">Servicio 4</h3>
+                    <h4 class="text-blue-300 font-semibold mb-2">Comercialización de maquinaria, repuestos y accesorios</h4>
+                    <p class="text-gray-200 text-sm mb-4">Venta de maquinaria, repuestos, accesorios y cualquier producto relacionado con el área eléctrica.</p>
+                    <a href="pages/servicios-detalle/servicio-4.html" class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm font-semibold transition">
+                        Ver más detalles <i class="fas fa-arrow-right ml-1"></i>
+                    </a>
+                </div>
+                
+                <!-- Servicio 5 -->
+                <div class="bg-white/10 rounded-lg p-6 hover:bg-white/20 transition">
+                    <div class="text-4xl mb-4"><i class="fas fa-tools text-blue-400"></i></div>
+                    <h3 class="font-bold text-xl mb-3">Servicio 5</h3>
+                    <h4 class="text-blue-300 font-semibold mb-2">Venta, comercialización y suministro de motores</h4>
+                    <p class="text-gray-200 text-sm mb-4">Motores eléctricos, plantas eléctricas, motores industriales, eléctricos de todas las clases y motores marinos.</p>
+                    <a href="pages/servicios-detalle/servicio-5.html" class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm font-semibold transition">
+                        Ver más detalles <i class="fas fa-arrow-right ml-1"></i>
+                    </a>
+                </div>
+                
+                <!-- Servicio 6 -->
+                <div class="bg-white/10 rounded-lg p-6 hover:bg-white/20 transition">
+                    <div class="text-4xl mb-4"><i class="fas fa-industry text-blue-400"></i></div>
+                    <h3 class="font-bold text-xl mb-3">Servicio 6</h3>
+                    <h4 class="text-blue-300 font-semibold mb-2">Venta y suministro de equipos industriales</h4>
+                    <p class="text-gray-200 text-sm mb-4">Turbinas, compresores, transmisiones, cajas, sistemas de generación de potencia eléctrica y tableros eléctricos.</p>
+                    <a href="pages/servicios-detalle/servicio-6.html" class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm font-semibold transition">
+                        Ver más detalles <i class="fas fa-arrow-right ml-1"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Otros Servicios Section -->
+            <div class="bg-white/5 rounded-lg p-8 mt-12">
+                <h3 class="text-2xl font-bold mb-6 text-center">OTROS SERVICIOS</h3>
+                <div class="grid md:grid-cols-2 gap-4">
+                    <ul class="space-y-3 text-gray-200">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-400 mr-3 mt-1"></i>
+                            <span>Configuración, ajuste y puesta en marcha de variadores de velocidad.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-400 mr-3 mt-1"></i>
+                            <span>Modernización y actualización de equipos fuera de línea o descontinuados por el fabricante.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-400 mr-3 mt-1"></i>
+                            <span>Análisis de cortocircuito, coordinación de protecciones y evaluación de arco eléctrico.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-400 mr-3 mt-1"></i>
+                            <span>Evaluaciones y estudios de calidad de energía.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-400 mr-3 mt-1"></i>
+                            <span>Diseño, integración y configuración de sistemas SCADA (FactoryTalk View, WinCC OA, RSView32, entre otros).</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-400 mr-3 mt-1"></i>
+                            <span>Proyectos eléctricos en niveles de baja, media y alta tensión.</span>
+                        </li>
+                    </ul>
+                    <ul class="space-y-3 text-gray-200">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-400 mr-3 mt-1"></i>
+                            <span>Diagnóstico, diseño, implementación y ejecución de sistemas de puesta a tierra.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-400 mr-3 mt-1"></i>
+                            <span>Implementación y configuración de redes industriales (Ethernet TCP/IP, Modbus RTU/TCP/IP, DeviceNet, Profinet, ControlNet).</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-400 mr-3 mt-1"></i>
+                            <span>Montaje y desarrollo de infraestructuras eléctricas.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-400 mr-3 mt-1"></i>
+                            <span>Ingeniería, diseño y fabricación de tableros eléctricos.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-400 mr-3 mt-1"></i>
+                            <span>Programación y automatización mediante controladores lógicos programables (PLC).</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-400 mr-3 mt-1"></i>
+                            <span>Mantenimientos preventivos y correctivos para instalaciones eléctricas.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="text-center mt-8">
+                <a href="pages/servicios.html" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-md font-medium transition inline-block">
+                    Ver todos los detalles de servicios
+                </a>
+            </div>
+        </div>
+    </section>    <!-- Values Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-12 mb-12">
+                <div>
+                    <p class="text-blue-600 font-semibold mb-2">Nuestros valores</p>
+                    <h2 class="text-4xl font-bold text-gray-900 mb-4">
+                        Somos una gran familia, somos un gran equipo, somos EEMEC
+                    </h2>
+                    <p class="text-gray-600 mb-6">
+                        Nuestro compromiso es crear un ambiente de trabajo colaborativo donde
+                        cada miembro del equipo pueda desarrollar su máximo potencial. Creemos
+                        en la importancia de mantener valores sólidos que guíen nuestras acciones
+                        y decisiones diarias.
+                    </p>
+                    <a href="pages/nosotros.html" class="btn-primary text-white px-6 py-3 rounded-md font-medium inline-block">
+                        Más sobre nosotros
+                    </a>
+                </div>
+                <div class="relative">
+                    <div class="relative h-96 rounded-2xl overflow-hidden shadow-2xl">
+                        <img src="img/nosotros3.jpg" 
+                             alt="Equipo EEMEC - Gran Familia" 
+                             class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section (copiada de servicios.html) -->
+    <section id="contacto" class="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">¿Listo para iniciar tu proyecto?</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Contáctanos y recibe una cotización personalizada. Nuestro equipo de expertos está listo para atenderte.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Información de Contacto</h3>
+                    <div class="space-y-6 mb-8">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-phone text-blue-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-1">Teléfono</h4>
+                                <p class="text-gray-600">(+57) 316 513 5406</p>
+                                <p class="text-sm text-gray-500">Lun - Vie: 8:00 AM - 6:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-envelope text-green-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-1">Correo Electrónico</h4>
+                                <p class="text-gray-600">gerencia@eemec.co</p>
+                                <p class="text-sm text-gray-500">Respuesta en 24 horas</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-map-marker-alt text-purple-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-1">Ubicación</h4>
+                                <p class="text-gray-600">DG 32 #83-58, Barrio Ternera – Cartagena, Bolívar</p>
+                                <p class="text-sm text-gray-500">Colombia</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-blue-600 to-cyan-600 rounded-xl p-6 text-white">
+                        <h4 class="font-bold text-lg mb-3">¿Por qué contactarnos?</h4>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle mr-2"></i>
+                                Asesoría técnica especializada
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle mr-2"></i>
+                                Cotizaciones sin compromiso
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle mr-2"></i>
+                                Atención personalizada
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle mr-2"></i>
+                                Respuesta rápida y efectiva
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle mr-2"></i>
+                                +300 proyectos completados
+                            </li>
+                        </ul>
+                        <a href="https://wa.me/573165135406" target="_blank" class="mt-6 flex items-center justify-center bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold text-base shadow-lg hover:shadow-xl transition-all duration-300">
+                            <i class="fab fa-whatsapp text-2xl mr-3"></i>
+                            WhatsApp: (+57) 316 513 5406
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Contact Form (idéntico a servicios.html) -->
+                <div class="bg-white rounded-xl shadow-xl p-8">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Solicita una Cotización</h3>
+                    <form id="contactForm" action="https://formsubmit.co/gerencia@eemec.co" method="POST" data-use-formsubmit>
+                        <input type="hidden" name="_subject" value="Nueva solicitud de cotización - Servicios EEMEC" />
+                        <input type="hidden" name="_template" value="table" />
+                        <input type="hidden" name="_captcha" value="false" />
+                        <input type="hidden" name="_next" value="https://www.eemec.co/pages/gracias.html" />
+                        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+                        
+                        <div class="grid md:grid-cols-2 gap-4 mb-4">
+                            <div>
+                                <label for="nombre" class="block text-sm font-medium text-gray-700 mb-2">Nombre completo *</label>
+                                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" class="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-blue-500 focus:border-transparent" required>
+                            </div>
+                            <div>
+                                <label for="correo" class="block text-sm font-medium text-gray-700 mb-2">Correo electrónico *</label>
+                                <input type="email" id="correo" name="correo" placeholder="tu@email.com" class="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-blue-500 focus:border-transparent" required>
+                            </div>
+                        </div>
+                        
+                        <div class="grid md:grid-cols-2 gap-4 mb-4">
+                            <div>
+                                <label for="telefono" class="block text-sm font-medium text-gray-700 mb-2">Teléfono</label>
+                                <input type="tel" id="telefono" name="telefono" placeholder="+57 300 123 4567" class="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            </div>
+                            <div>
+                                <label for="servicio" class="block text-sm font-medium text-gray-700 mb-2">Servicio de interés</label>
+                                <select id="servicio" name="servicio" class="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                                    <option value="">Seleccionar servicio</option>
+                                    <option value="Reparación Maquinaria">Reparación Maquinaria Eléctrica</option>
+                                    <option value="Sistemas Eléctricos">Sistemas Eléctricos</option>
+                                    <option value="Aires Acondicionados">Aires Acondicionados</option>
+                                    <option value="Fabricación de Tableros">Fabricación de Tableros Eléctricos</option>
+                                    <option value="Motores Eléctricos">Motores y Compresores</option>
+                                    <option value="Equipos Industriales">Equipos Industriales</option>
+                                    <option value="Otro">Otro servicio</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <label for="mensaje" class="block text-sm font-medium text-gray-700 mb-2">Mensaje *</label>
+                            <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos sobre tu proyecto o necesidad..." rows="5" class="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-blue-500 focus:border-transparent" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white px-8 py-4 rounded-lg font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center">
+                            <i class="fas fa-paper-plane mr-2"></i> Enviar Solicitud
+                        </button>
+                        
+                        <p class="text-xs text-gray-500 mt-4 text-center">
+                            Al enviar este formulario, aceptas nuestras políticas de privacidad
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="relative bg-gradient-to-b from-gray-900 to-blue-950 text-white pt-16">
+        <div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-transparent via-blue-500/60 to-transparent"></div>
+
+        <div class="container mx-auto px-4">
+            <div class="grid gap-10 md:grid-cols-5 mb-12">
+                <!-- Company Info -->
+                <div>
+                    <img src="img/LOGO-transparent.svg" alt="EEMEC S.A.S - Soluciones Integrales" class="h-12 mb-4 brightness-0 invert">
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        EEMEC S.A.S | NIT 901067381-8 | Fundada en 2017<br>
+                        En EEMEC S.A.S, aspiramos no solo a cumplir expectativas, sino a superarlas.
+                    </p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                        <span class="text-[11px] uppercase tracking-wide bg-white/5 text-gray-300 px-2.5 py-1 rounded-full ring-1 ring-white/10">+25 años</span>
+                        <span class="text-[11px] uppercase tracking-wide bg-white/5 text-gray-300 px-2.5 py-1 rounded-full ring-1 ring-white/10">Cobertura Nacional</span>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="font-bold mb-4">Enlaces rápidos</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li>
+                            <a href="#inicio" class="group inline-flex items-center gap-2 hover:text-white transition">
+                                <i class="fas fa-angle-right text-xs text-blue-400 opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition"></i>
+                                Inicio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="pages/nosotros.html" class="group inline-flex items-center gap-2 hover:text-white transition">
+                                <i class="fas fa-angle-right text-xs text-blue-400 opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition"></i>
+                                Nosotros
+                            </a>
+                        </li>
+                        <li>
+                            <a href="pages/servicios.html" class="group inline-flex items-center gap-2 hover:text-white transition">
+                                <i class="fas fa-angle-right text-xs text-blue-400 opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition"></i>
+                                Servicios
+                            </a>
+                        </li>
+                        <li>
+                            <a href="pages/contacto.html" class="group inline-flex items-center gap-2 hover:text-white transition">
+                                <i class="fas fa-angle-right text-xs text-blue-400 opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition"></i>
+                                Contacto
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h4 class="font-bold mb-4">Servicios</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="pages/servicios.html" class="hover:text-white">Reparación de Maquinaria Eléctrica</a></li>
+                        <li><a href="pages/servicios.html" class="hover:text-white">Sistemas Eléctricos</a></li>
+                        <li><a href="pages/servicios.html" class="hover:text-white">Aires Acondicionados y Refrigeración</a></li>
+                        <li><a href="pages/servicios.html" class="hover:text-white">Fabricación de Tableros Eléctricos</a></li>
+                        <li><a href="pages/servicios.html" class="hover:text-white">Motores y Compresores</a></li>
+                        <li><a href="pages/servicios.html" class="hover:text-white">Equipos Industriales</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="font-bold mb-4">Contacto</h4>
+                    <ul class="space-y-3 text-sm text-gray-300">
+                        <li class="flex items-center gap-3">
+                            <span class="inline-flex items-center justify-center rounded-md bg-white/5 ring-1 ring-white/10 w-8 h-8">
+                                <i class="fas fa-phone text-blue-300"></i>
+                            </span>
+                            (+57) 316 513 5406
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span class="inline-flex items-center justify-center rounded-md bg-white/5 ring-1 ring-white/10 w-8 h-8">
+                                <i class="fas fa-envelope text-blue-300"></i>
+                            </span>
+                            gerencia@eemec.co
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span class="inline-flex items-center justify-center rounded-md bg-white/5 ring-1 ring-white/10 w-8 h-8">
+                                <i class="fas fa-map-marker-alt text-blue-300"></i>
+                            </span>
+                            DG 32 #83-58, Barrio Ternera – Cartagena, Bolívar
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter -->
+                <div>
+                    <h4 class="font-bold mb-4">Descarga nuestro portafolio</h4>
+                    <a href="assets/PORTAFOLIO EEMEC.pdf" download class="w-full flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold shadow-lg transition-all duration-300 mb-2">
+                        <i class="fas fa-download"></i> Descargar portafolio
+                    </a>
+                </div>
+            </div>
+
+            <div class="h-px w-full bg-gradient-to-r from-transparent via-white/10 to-transparent mb-6"></div>
+
+            <div class="pb-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm mb-4 md:mb-0">
+                    © 2025 EEMEC - Soluciones Integrales. Todos los derechos reservados.
+                </p>
+                <div class="flex items-center gap-3">
+                    <a href="https://www.linkedin.com/company/eemec-sas/" target="_blank" aria-label="LinkedIn" class="group inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/5 ring-1 ring-white/10 hover:bg-white/10 transition">
+                        <i class="fab fa-linkedin-in text-gray-300 group-hover:text-white"></i>
+                    </a>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#inicio" aria-label="Volver arriba" class="fixed bottom-6 right-6 z-50 inline-flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 text-white shadow-lg hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-white/50 transition">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- EmailJS (envío de formularios sin backend) -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="js/emailjs-config.js"></script>
+    <script src="js/form-handler.js"></script>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
